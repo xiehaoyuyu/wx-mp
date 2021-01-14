@@ -1,2 +1,5 @@
 <!-- index.wxml -->
-<view class="container"></view>
+<view class="container">
+
+测试测试
+</view>
