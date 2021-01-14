@@ -1,0 +1,7 @@
+<!--miniprogram/pages/product/product.wxml-->
+<text>miniprogram/pages/product/product.wxml</text>
+
+<text class="" selectable="false" space="false" decode="false">
+    这是商品详情页面
+</text>
+  

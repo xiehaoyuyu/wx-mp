@@ -1,12 +1,18 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/search/search",
+    "pages/product/product",
+    "pages/order/order",
+    "pages/address/address",
+    "pages/login/login",
+    "pages/orderList/orderList"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
+    "navigationBarTitleText": "爱的商城",
     "navigationBarTextStyle": "black"
   },
   "style": "v2",

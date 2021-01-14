@@ -1,0 +1,8 @@
+<!--miniprogram/pages/orderList/orderList.wxml-->
+<text>miniprogram/pages/orderList/orderList.wxml</text>
+
+<text class="" selectable="false" space="false" decode="false">
+    这是订单详情
+    包括全部订单 代付款 已付款等等
+</text>
+  
