@@ -1,5 +1,0 @@
-/**index.wxss**/
-
-.navTabBar{
-  margin-bottom: 25rpx;
-}

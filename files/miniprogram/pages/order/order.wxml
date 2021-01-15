@@ -1,7 +1,0 @@
-<!--miniprogram/pages/order/order.wxml-->
-<text>miniprogram/pages/order/order.wxml</text>
-
-<text class="" selectable="false" space="false" decode="false">
-    订单页面点击付款后跳转的页面
-</text>
-  
