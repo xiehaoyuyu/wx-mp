@@ -1,17 +1,21 @@
 <!-- index.wxml -->
 <!-- 页面显示 -->
 <!-- 首页 -->
-<!-- <navigator class="" target="" url="/pages/search/search" open-type="navigateTo">跳转</navigator> -->
+<navigator class="" target="" url="/pages/search/search" open-type="navigateTo">跳转</navigator>
 <view class="homepage" wx:if="{{ current == 'homepage'}}">
   <!-- 搜索栏 -->
   <view class="searchBar"></view>
-  <view class="homepageContent">
-  </view>
+  <view class="homepageContent"></view>
 </view>
 <!-- 购物车 -->
 <view class="cart" wx:if="{{ current == 'cart'}}">cart</view>
 <!-- 我的 -->
-<view class="mine" wx:if="{{ current == 'mine'}}">mine</view>
+<view class="mine" wx:if="{{ current == 'mine'}}">
+  <i-button bind:click="handleClick" type="error" long="true">
+  
+  </i-button>
+  <button bindtap="getData">t</button>
+</view>
 <!-- 底部导航 -->
 <i-tab-bar current="{{ current }}" color="#fba414" fixed bindchange="handleChange" i-class="navTabBar">
   <i-tab-bar-item key="homepage" icon="homepage" current-icon="homepage_fill" title="首页"></i-tab-bar-item>
