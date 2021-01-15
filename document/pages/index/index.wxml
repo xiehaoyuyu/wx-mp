@@ -6,7 +6,6 @@
   <!-- 搜索栏 -->
   <view class="searchBar"></view>
   <view class="homepageContent">
-    <i-button bind:click="rTest">默认按钮</i-button>
   </view>
 </view>
 <!-- 购物车 -->
